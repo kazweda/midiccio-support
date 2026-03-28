@@ -1,14 +1,14 @@
 ---
 title: Privacy Policy - midiccio
 description: Privacy Policy for the midiccio app. This document describes how personal data is collected, used, and protected.
-lastUpdated: 2026-03-20
+lastUpdated: 2026-03-28
 lang: en
 updatedLabel: Last updated
 ---
 
 # Privacy Policy
 
-Last updated: March 20, 2026
+Last updated: March 28, 2026
 
 ## Overview
 
@@ -143,7 +143,14 @@ Export files are JSON and can be processed by other tools.
 - ✅ **Access control**: Accessible only by the device owner
 - ✅ **Offline-first**: No server dependency
 
-### 5.2 Security Reporting
+### 5.2 Encryption
+
+The app does not implement its own application-level encryption. Data protection relies on the mechanisms provided by the OS and platform:
+
+- **Local data**: OS sandbox, device encryption, and screen lock (iOS/Android OS)
+- **Data in transit**: SSL/TLS (Apple CloudKit / Google Drive API)
+
+### 5.3 Security Reporting
 
 If you find a security vulnerability, please report it through a private channel instead of a public issue:
 
@@ -208,6 +215,7 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 | 1.4 | 2026-03-15 | Reflected lightweight auto-sync triggers (resume, save, delete) |
 | 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
 | 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
+| 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
 
 ---
 
