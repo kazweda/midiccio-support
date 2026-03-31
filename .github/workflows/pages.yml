@@ -1,10 +1,12 @@
-name: Deploy Privacy Policy (GitHub Pages)
+name: Deploy midiccio Site (GitHub Pages)
 
 on:
   push:
     branches:
       - main
     paths:
+      - INDEX.md
+      - INDEX_EN.md
       - PRIVACY_POLICY.md
       - PRIVACY_POLICY_EN.md
       - ci_scripts/build_privacy_policy_site.py
@@ -38,7 +40,16 @@ jobs:
       - name: Install markdown dependency
         run: pip install markdown==3.10.2
 
-      - name: Build privacy policy page
+      - name: Build promotion pages
+        run: |
+          python ci_scripts/build_privacy_policy_site.py \
+            --input INDEX.md \
+            --output _site/index.html
+          python ci_scripts/build_privacy_policy_site.py \
+            --input INDEX_EN.md \
+            --output _site/en/index.html
+
+      - name: Build privacy policy pages
         run: |
           python ci_scripts/build_privacy_policy_site.py \
             --input PRIVACY_POLICY.md \
@@ -46,22 +57,6 @@ jobs:
           python ci_scripts/build_privacy_policy_site.py \
             --input PRIVACY_POLICY_EN.md \
             --output _site/privacy-policy/en/index.html
-
-      - name: Create root redirect page
-        run: |
-          cat > _site/index.html << 'EOF'
-          <!doctype html>
-          <html lang="ja">
-            <head>
-              <meta charset="utf-8" />
-              <meta http-equiv="refresh" content="0;url=privacy-policy/" />
-              <title>midiccio Privacy Policy</title>
-            </head>
-            <body>
-              <p><a href="privacy-policy/">Privacy Policy へ移動</a></p>
-            </body>
-          </html>
-          EOF
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
