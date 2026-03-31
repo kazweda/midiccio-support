@@ -28,6 +28,23 @@ def parse_front_matter(content: str) -> tuple[dict[str, str], str]:
     return meta, body
 
 
+PROMO_CSS = """
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+      }
+      h1 + p strong {
+        font-size: 1.15rem;
+        color: #555;
+      }
+      @media (prefers-color-scheme: dark) {
+        h1 + p strong {
+          color: #aaa;
+        }
+      }
+"""
+
+
 def build_html(markdown_text: str, meta: dict[str, str]) -> str:
     title = meta.get("title", "midiccio Privacy Policy")
     description = meta.get(
@@ -37,6 +54,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
     last_updated = meta.get("lastUpdated", "")
     lang = meta.get("lang", "ja")
     updated_label = meta.get("updatedLabel", "最終更新")
+    page_type = meta.get("pageType", "policy")
 
     rendered = markdown.markdown(
         markdown_text,
@@ -54,6 +72,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         "img-src https: data:; base-uri 'none'; "
         "form-action 'none'; frame-ancestors 'none';"
     )
+    extra_css = PROMO_CSS if page_type == "promo" else ""
 
     return f"""<!doctype html>
 <html lang=\"{html.escape(lang)}\">
@@ -109,6 +128,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         color: #666;
         font-size: 0.95rem;
       }}
+      {extra_css}
     </style>
   </head>
   <body>
