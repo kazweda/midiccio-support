@@ -127,7 +127,8 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
       .updated {{
         color: #666;
         font-size: 0.95rem;
-      }}{extra_css}
+      }}
+      {extra_css}
     </style>
   </head>
   <body>
