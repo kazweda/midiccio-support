@@ -30,7 +30,7 @@ MiDiccio respeta tu privacidad:
 - No se recopilan datos personales
 - Todos los datos se almacenan localmente en tu dispositivo
 - La copia de seguridad en la nube es opcional (solo tu iCloud / Google Drive personal)
-- Sin análisis ni rastreo
+- Sin análisis ni rastreo dentro de la app
 
 [Política de Privacidad](../privacy-policy/es/)
 

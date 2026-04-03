@@ -30,7 +30,7 @@ MiDiccio respects your privacy:
 - No personal data collected
 - All data stored locally on your device
 - Cloud backup is optional (your own iCloud / Google Drive only)
-- No analytics or tracking
+- No in-app analytics or tracking
 
 [Privacy Policy](../privacy-policy/en/)
 
