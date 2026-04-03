@@ -43,6 +43,8 @@ midiccio はあなたのプライバシーを尊重します：
 
 ---
 
+If you like MiDiccio, you can support my work here!
+
 ☕ [Buy me a coffee](https://buymeacoffee.com/netplan)
 
 ---

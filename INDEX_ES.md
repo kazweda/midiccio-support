@@ -43,6 +43,8 @@ midiccio respeta tu privacidad:
 
 ---
 
+¿Te gusta MiDiccio? Puedes apoyar mi trabajo aquí.
+
 ☕ [Invítame a un café](https://buymeacoffee.com/netplan)
 
 ---
