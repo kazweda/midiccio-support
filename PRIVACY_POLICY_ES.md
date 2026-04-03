@@ -1,6 +1,6 @@
 ---
-title: Política de Privacidad - midiccio
-description: Política de privacidad de la aplicación midiccio. Este documento describe cómo se recopilan, utilizan y protegen los datos personales.
+title: Política de Privacidad - MiDiccio
+description: Política de privacidad de la aplicación MiDiccio. Este documento describe cómo se recopilan, utilizan y protegen los datos personales.
 lastUpdated: 2026-03-28
 lang: es
 updatedLabel: Última actualización
@@ -12,7 +12,7 @@ updatedLabel: Última actualización
 
 ## Descripción general
 
-**midiccio** es una aplicación local y personal para el aprendizaje de vocabulario. Esta política explica cómo la aplicación recopila, utiliza y protege los datos personales.
+**MiDiccio** es una aplicación local y personal para el aprendizaje de vocabulario. Esta política explica cómo la aplicación recopila, utiliza y protege los datos personales.
 
 ---
 
@@ -94,7 +94,7 @@ Cuando se utiliza la sincronización en la nube, también se aplican las siguien
 - **Google Drive (Android)**: [Política de privacidad de Google](https://policies.google.com/privacy)
 - **iCloud (iOS)**: [Política de privacidad de Apple](https://www.apple.com/privacy/)
 
-midiccio integra estos servicios como licenciatario y no realiza un uso secundario de los datos.
+MiDiccio integra estos servicios como licenciatario y no realiza un uso secundario de los datos.
 
 ---
 

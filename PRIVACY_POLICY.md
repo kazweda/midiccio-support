@@ -1,6 +1,6 @@
 ---
-title: プライバシーポリシー - midiccio
-description: midiccio アプリのプライバシーポリシー。個人データの収集・使用・保護方法について説明します。
+title: プライバシーポリシー - MiDiccio
+description: MiDiccio アプリのプライバシーポリシー。個人データの収集・使用・保護方法について説明します。
 lastUpdated: 2026-03-28
 ---
 
@@ -10,7 +10,7 @@ lastUpdated: 2026-03-28
 
 ## 概要
 
-**midiccio** はローカル個人用語学習アプリです。本ポリシーはアプリが個人データを取得・使用・保護する方法について説明します。
+**MiDiccio** はローカル個人用語学習アプリです。本ポリシーはアプリが個人データを取得・使用・保護する方法について説明します。
 
 ---
 
@@ -92,7 +92,7 @@ lastUpdated: 2026-03-28
 - **Google Drive（Android）**: [Google プライバシーポリシー](https://policies.google.com/privacy)
 - **iCloud（iOS）**: [Apple プライバシーポリシー](https://www.apple.com/jp/privacy/)
 
-midiccio はこれらのサービスを統合するライセンシーですが、データの二次利用は行いません。
+MiDiccio はこれらのサービスを統合するライセンシーですが、データの二次利用は行いません。
 
 ---
 
