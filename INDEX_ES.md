@@ -17,8 +17,8 @@ Disponible en iOS y Android. Sin cuenta requerida, sin anuncios. Gestiona tu voc
 
 - **Gestión de vocabulario**: Añade, edita y organiza palabras, significados, notas y etiquetas
 - **Copia de seguridad**: Exporta e importa en formato JSON
-- **Sincronización en la nube (iOS)**: Sincronización manual y automática via iCloud
-- **Sincronización en la nube (Android)**: Sincronización manual y automática via Google Drive
+- **Sincronización en la nube (iOS)**: Sincronización manual y automática vía iCloud
+- **Sincronización en la nube (Android)**: Sincronización manual y automática vía Google Drive
 - **Offline-first**: Sin servidor requerido, sin cuenta necesaria
 
 ---
