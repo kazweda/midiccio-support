@@ -1,6 +1,6 @@
 ---
-title: Informativa sulla Privacy - midiccio
-description: Informativa sulla privacy dell'app midiccio. Questo documento descrive come vengono raccolti, utilizzati e protetti i dati personali.
+title: Informativa sulla Privacy - MiDiccio
+description: Informativa sulla privacy dell'app MiDiccio. Questo documento descrive come vengono raccolti, utilizzati e protetti i dati personali.
 lastUpdated: 2026-03-28
 lang: it
 updatedLabel: Ultimo aggiornamento
@@ -12,7 +12,7 @@ Ultimo aggiornamento: 28 marzo 2026
 
 ## Panoramica
 
-**midiccio** è un'app locale e personale per l'apprendimento del vocabolario. Questa informativa spiega come l'app raccoglie, utilizza e protegge i dati personali.
+**MiDiccio** è un'app locale e personale per l'apprendimento del vocabolario. Questa informativa spiega come l'app raccoglie, utilizza e protegge i dati personali.
 
 ---
 
@@ -94,7 +94,7 @@ Quando si utilizza la sincronizzazione cloud, si applicano anche le seguenti pol
 - **Google Drive (Android)**: [Informativa sulla privacy di Google](https://policies.google.com/privacy)
 - **iCloud (iOS)**: [Informativa sulla privacy di Apple](https://www.apple.com/privacy/)
 
-midiccio integra questi servizi come licenziatario e non effettua un utilizzo secondario dei dati.
+MiDiccio integra questi servizi come licenziatario e non effettua un utilizzo secondario dei dati.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: midiccio - Offline-First Vocabulary Learning App
+title: MiDiccio - Offline-First Vocabulary Learning App
 description: A personal offline-first vocabulary learning app for iOS & Android. No account required to get started.
 lang: en
 pageType: promo
 ---
 
-# midiccio
+# MiDiccio
 
 **Offline-first personal vocabulary learning app**
 
@@ -25,7 +25,7 @@ Available on iOS and Android. No account required, no ads. Manage your vocabular
 
 ## Privacy
 
-midiccio respects your privacy:
+MiDiccio respects your privacy:
 
 - No personal data collected
 - All data stored locally on your device
@@ -42,6 +42,8 @@ midiccio respects your privacy:
 - Google Play (Android) — Coming soon
 
 ---
+
+If you like MiDiccio, you can support my work here!
 
 ☕ [Buy me a coffee](https://buymeacoffee.com/netplan)
 

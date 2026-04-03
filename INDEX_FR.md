@@ -1,11 +1,11 @@
 ---
-title: midiccio - Application d'Apprentissage du Vocabulaire
+title: MiDiccio - Application d'Apprentissage du Vocabulaire
 description: Une application personnelle d'apprentissage du vocabulaire offline-first pour iOS et Android. Aucun compte requis pour commencer.
 lang: fr
 pageType: promo
 ---
 
-# midiccio
+# MiDiccio
 
 **Application personnelle d'apprentissage du vocabulaire offline-first**
 
@@ -25,7 +25,7 @@ Disponible sur iOS et Android. Aucun compte requis, aucune publicité. Gérez vo
 
 ## Confidentialité
 
-midiccio respecte votre vie privée :
+MiDiccio respecte votre vie privée :
 
 - Aucune donnée personnelle collectée
 - Toutes les données sont stockées localement sur votre appareil
@@ -42,6 +42,8 @@ midiccio respecte votre vie privée :
 - Google Play (Android) — Bientôt disponible
 
 ---
+
+Si vous aimez MiDiccio, vous pouvez soutenir mon travail ici.
 
 ☕ [Offrez-moi un café](https://buymeacoffee.com/netplan)
 

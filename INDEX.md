@@ -1,11 +1,11 @@
 ---
-title: midiccio - オフラインファーストな語学習アプリ
+title: MiDiccio - オフラインファーストな語学習アプリ
 description: iOS・Android 向けのオフラインファーストな個人用語学習アプリ。アカウント不要で利用開始できます。
 lang: ja
 pageType: promo
 ---
 
-# midiccio
+# MiDiccio
 
 **オフラインファーストな個人用語学習アプリ**
 
@@ -25,7 +25,7 @@ iOS・Android 対応。アカウント不要、広告なし。単語帳をデバ
 
 ## プライバシー
 
-midiccio はあなたのプライバシーを尊重します：
+MiDiccio はあなたのプライバシーを尊重します：
 
 - 個人情報を収集しません
 - 全データはデバイスにローカル保存
@@ -42,6 +42,8 @@ midiccio はあなたのプライバシーを尊重します：
 - Google Play（Android）— 準備中
 
 ---
+
+If you like MiDiccio, you can support my work here!
 
 ☕ [Buy me a coffee](https://buymeacoffee.com/netplan)
 
