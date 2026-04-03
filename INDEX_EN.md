@@ -43,4 +43,8 @@ midiccio respects your privacy:
 
 ---
 
-[日本語](../)
+☕ [Buy me a coffee](https://buymeacoffee.com/netplan)
+
+---
+
+[日本語](../) | [Español](../es/) | [Français](../fr/) | [Italiano](../it/)
