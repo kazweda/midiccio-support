@@ -38,8 +38,8 @@ MiDiccio rispetta la tua privacy:
 
 ## Scarica
 
-- App Store (iOS) — Prossimamente
-- Google Play (Android) — Prossimamente
+- [App Store (iOS)](https://apps.apple.com/it/app/midiccio/id6759956689)
+- [Google Play (Android)](https://play.google.com/store/apps/details?id=jp.netplan.midiccio&pcampaignid=web_share)
 
 ---
 
