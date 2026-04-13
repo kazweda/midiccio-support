@@ -15,6 +15,7 @@ on:
       - PRIVACY_POLICY_ES.md
       - PRIVACY_POLICY_FR.md
       - PRIVACY_POLICY_IT.md
+      - assets/**
       - ci_scripts/build_privacy_policy_site.py
       - .github/workflows/pages.yml
   workflow_dispatch:
@@ -81,6 +82,13 @@ jobs:
           python ci_scripts/build_privacy_policy_site.py \
             --input PRIVACY_POLICY_IT.md \
             --output _site/privacy-policy/it/index.html
+
+      - name: Copy assets
+        run: |
+          if [ -d assets ]; then
+            mkdir -p _site/assets
+            cp -r assets/. _site/assets/
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
