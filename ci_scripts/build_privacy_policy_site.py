@@ -70,7 +70,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
     csp_content = (
         "default-src 'none'; style-src 'unsafe-inline'; "
         "img-src https: data:; base-uri 'none'; "
-        "form-action 'none'; frame-ancestors 'none';"
+        "form-action 'none';"
     )
     extra_css = PROMO_CSS if page_type == "promo" else ""
 
@@ -83,6 +83,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
       http-equiv=\"Content-Security-Policy\"
       content=\"{html.escape(csp_content)}\"
     />
+    <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231a1a1a'/><text x='50' y='72' font-size='68' font-family='system-ui,sans-serif' font-weight='700' fill='white' text-anchor='middle'>M</text></svg>\" />
     <title>{html.escape(title)}</title>
     <meta name=\"description\" content=\"{html.escape(description)}\" />
     <style>
