@@ -83,7 +83,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
       http-equiv=\"Content-Security-Policy\"
       content=\"{html.escape(csp_content)}\"
     />
-    <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231a1a1a'/><text x='50' y='72' font-size='68' font-family='system-ui,sans-serif' font-weight='700' fill='white' text-anchor='middle'>M</text></svg>\" />
+    <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'><rect%20width='100'%20height='100'%20rx='20'%20fill='%231a1a1a'/><text%20x='50'%20y='72'%20font-size='68'%20font-family='system-ui,sans-serif'%20font-weight='700'%20fill='white'%20text-anchor='middle'>M</text></svg>\" />
     <title>{html.escape(title)}</title>
     <meta name=\"description\" content=\"{html.escape(description)}\" />
     <style>
