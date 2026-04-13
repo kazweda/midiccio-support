@@ -73,6 +73,18 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         "form-action 'none';"
     )
     extra_css = PROMO_CSS if page_type == "promo" else ""
+    favicon_svg = (
+        "data:image/svg+xml,"
+        "<svg%20xmlns='http://www.w3.org/2000/svg'"
+        "%20viewBox='0%200%20100%20100'>"
+        "<rect%20width='100'%20height='100'%20rx='20'"
+        "%20fill='%231a1a1a'/>"
+        "<text%20x='50'%20y='72'%20font-size='68'"
+        "%20font-family='system-ui,sans-serif'"
+        "%20font-weight='700'%20fill='white'"
+        "%20text-anchor='middle'>M</text>"
+        "</svg>"
+    )
 
     return f"""<!doctype html>
 <html lang=\"{html.escape(lang)}\">
@@ -83,7 +95,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
       http-equiv=\"Content-Security-Policy\"
       content=\"{html.escape(csp_content)}\"
     />
-    <link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'><rect%20width='100'%20height='100'%20rx='20'%20fill='%231a1a1a'/><text%20x='50'%20y='72'%20font-size='68'%20font-family='system-ui,sans-serif'%20font-weight='700'%20fill='white'%20text-anchor='middle'>M</text></svg>\" />
+    <link rel=\"icon\" type=\"image/svg+xml\" href=\"{favicon_svg}\" />
     <title>{html.escape(title)}</title>
     <meta name=\"description\" content=\"{html.escape(description)}\" />
     <style>
