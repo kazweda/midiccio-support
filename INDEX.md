@@ -101,9 +101,9 @@ MiDiccio はどこでも使えます。
 
 今日から、自分だけの単語帳を始めましょう。
 
-[![App Store](/assets/badges/app-store-badge.svg)](https://apps.apple.com/us/app/midiccio/id6759956689)
+[![App Store](assets/badges/app-store-badge.svg)](https://apps.apple.com/jp/app/midiccio/id6759956689)
 
-[![Google Play](/assets/badges/google-play-badge.svg)](https://play.google.com/store/apps/details?id=jp.netplan.midiccio)
+[![Google Play](assets/badges/google-play-badge.svg)](https://play.google.com/store/apps/details?id=jp.netplan.midiccio)
 
 ---
 

@@ -86,7 +86,8 @@ jobs:
       - name: Copy assets
         run: |
           if [ -d assets ]; then
-            cp -r assets _site/assets
+            mkdir -p _site/assets
+            cp -r assets/. _site/assets/
           fi
 
       - name: Setup Pages

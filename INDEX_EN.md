@@ -103,9 +103,9 @@ Your learning doesn't depend on a network.
 
 Start building your own dictionary today.
 
-[![App Store](/assets/badges/app-store-badge.svg)](https://apps.apple.com/us/app/midiccio/id6759956689)
+[![App Store](../assets/badges/app-store-badge.svg)](https://apps.apple.com/us/app/midiccio/id6759956689)
 
-[![Google Play](/assets/badges/google-play-badge.svg)](https://play.google.com/store/apps/details?id=jp.netplan.midiccio)
+[![Google Play](../assets/badges/google-play-badge.svg)](https://play.google.com/store/apps/details?id=jp.netplan.midiccio)
 
 ---
 
