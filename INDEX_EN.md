@@ -115,4 +115,4 @@ If you like MiDiccio, you can support my work here!
 
 ---
 
-[Privacy Policy](../privacy-policy/en/) | [日本語](../) | [Español](../es/) | [Français](../fr/) | [Italiano](../it/)
+[Privacy Policy](../privacy-policy/en/) | [日本語](../)

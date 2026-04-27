@@ -113,4 +113,4 @@ If you like MiDiccio, you can support my work here!
 
 ---
 
-[Privacy Policy](privacy-policy/) | [English](en/) | [Español](es/) | [Français](fr/) | [Italiano](it/)
+[Privacy Policy](privacy-policy/) | [English](en/)
