@@ -28,7 +28,7 @@ It's built for people who want a simple, personal way to build their vocabulary.
 - Your data stays on your device
 - No app sign-up required
 - Works fully offline
-- Optional sync via iCloud / Google Drive (no proprietary server)
+- Optional sync via iCloud (iOS) or Google Drive's private app folder (Android) — no proprietary server
 
 **You own your dictionary.**
 
