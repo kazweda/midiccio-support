@@ -7,14 +7,8 @@ on:
     paths:
       - INDEX.md
       - INDEX_EN.md
-      - INDEX_ES.md
-      - INDEX_FR.md
-      - INDEX_IT.md
       - PRIVACY_POLICY.md
       - PRIVACY_POLICY_EN.md
-      - PRIVACY_POLICY_ES.md
-      - PRIVACY_POLICY_FR.md
-      - PRIVACY_POLICY_IT.md
       - assets/**
       - ci_scripts/build_privacy_policy_site.py
       - .github/workflows/pages.yml
@@ -55,15 +49,6 @@ jobs:
           python ci_scripts/build_privacy_policy_site.py \
             --input INDEX_EN.md \
             --output _site/en/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input INDEX_ES.md \
-            --output _site/es/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input INDEX_FR.md \
-            --output _site/fr/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input INDEX_IT.md \
-            --output _site/it/index.html
 
       - name: Build privacy policy pages
         run: |
@@ -73,15 +58,6 @@ jobs:
           python ci_scripts/build_privacy_policy_site.py \
             --input PRIVACY_POLICY_EN.md \
             --output _site/privacy-policy/en/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input PRIVACY_POLICY_ES.md \
-            --output _site/privacy-policy/es/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input PRIVACY_POLICY_FR.md \
-            --output _site/privacy-policy/fr/index.html
-          python ci_scripts/build_privacy_policy_site.py \
-            --input PRIVACY_POLICY_IT.md \
-            --output _site/privacy-policy/it/index.html
 
       - name: Copy assets
         run: |
