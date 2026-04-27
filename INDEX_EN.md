@@ -1,6 +1,6 @@
 ---
 title: MiDiccio - Build Your Own Private Dictionary
-description: A personal offline-first vocabulary learning app for iOS & Android. No account required to get started.
+description: A personal offline-first vocabulary learning app for iOS & Android. No sign-up required to get started.
 lang: en
 pageType: promo
 ---
@@ -9,7 +9,7 @@ pageType: promo
 
 ## Build your own private dictionary
 
-No account.  
+No sign-up.  
 No tracking.  
 No ads.  
 Just your words.
@@ -23,11 +23,12 @@ accounts, forced syncing, ads, and data collection.
 
 MiDiccio is different.
 
-It's built for people who want full control over their own words.
+It's built for people who want a simple, personal way to build their vocabulary.
 
 - Your data stays on your device
-- No sign-up required
+- No app sign-up required
 - Works fully offline
+- Optional sync via iCloud (iOS) or Google Drive's private app folder (Android) — no proprietary server
 
 **You own your dictionary.**
 
@@ -39,7 +40,7 @@ MiDiccio is for:
 
 - Language learners who want a simple, distraction-free tool
 - People who care about privacy
-- Users who prefer owning their data over relying on cloud services
+- Users who want to start offline and optionally add iCloud / Google Drive sync later
 - Anyone who has ever felt other apps are "too much"
 
 ---
