@@ -127,6 +127,9 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         text-align: left;
         vertical-align: top;
       }}
+      th:nth-child(2), td:nth-child(2) {{
+        white-space: nowrap;
+      }}
       code {{
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           "Liberation Mono", monospace;

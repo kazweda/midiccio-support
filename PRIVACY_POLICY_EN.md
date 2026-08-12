@@ -1,14 +1,15 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-lastUpdated: 2026-03-28
+version: 1.9
+lastUpdated: 2026-08-12
 lang: en
 updatedLabel: Last updated
 ---
 
 # Privacy Policy
 
-Last updated: March 28, 2026
+Last updated: August 12, 2026
 
 ## Overview
 
@@ -96,6 +97,15 @@ When cloud sync is used, the following privacy policies also apply:
 
 MiDiccio integrates these services as a licensee and does not perform secondary data usage.
 
+### 3.3 Purchase Information
+
+MiDiccio Premium (one-time purchase) is purchased through the App Store (iOS) or Google Play (Android), and payment information (such as credit card numbers) is managed by Apple / Google. The developer does not collect or store the purchaser's personal information such as name or email address within the app.
+
+- **iOS**: Through App Store Connect, the developer cannot obtain information that identifies individual purchasers (only aggregated sales data is available).
+- **Android**: Due to how Google Play works, for the purpose of handling refunds and order management, the developer may be able to see the purchaser's email address, etc. in the Google Play Console's "Order management" screen.
+
+The respective privacy policies for these payment platforms also apply (see 3.2).
+
 ---
 
 ## 4. User Rights
@@ -152,11 +162,10 @@ The app does not implement its own application-level encryption. Data protection
 
 ### 5.3 Security Reporting
 
-If you find a security vulnerability, please report it through a private channel instead of a public issue:
+If you find a security vulnerability, please report it privately to the following email address instead of a public issue:
 
 ```
-- Use “Report a vulnerability” from the repository Security tab (Private vulnerability reporting)
-- See SECURITY.md for details
+support (at) netplan.co.jp
 ```
 
 ---
@@ -196,10 +205,10 @@ The update date is always reflected in “Last updated”.
 
 ## 8. Contact
 
-If you have questions or concerns regarding privacy or security, please open an issue on GitHub:
+If you have questions or concerns regarding privacy or security, please contact us at the following email address:
 
 ```
-GitHub Issues: https://github.com/kazweda/midiccio/issues
+support (at) netplan.co.jp
 ```
 
 ---
@@ -208,14 +217,16 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2026-02-28 | Initial publication |
-| 1.1 | 2026-03-13 | Added iCloud / Google Drive cloud sync descriptions |
-| 1.2 | 2026-03-14 | Corrected implementation status descriptions |
-| 1.3 | 2026-03-14 | Reflected iOS CloudKit manual sync completion |
-| 1.4 | 2026-03-15 | Reflected lightweight auto-sync triggers (resume, save, delete) |
-| 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
-| 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
+| 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email |
+| 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
 | 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
+| 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
+| 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
+| 1.4 | 2026-03-15 | Reflected lightweight auto-sync triggers (resume, save, delete) |
+| 1.3 | 2026-03-14 | Reflected iOS CloudKit manual sync completion |
+| 1.2 | 2026-03-14 | Corrected implementation status descriptions |
+| 1.1 | 2026-03-13 | Added iCloud / Google Drive cloud sync descriptions |
+| 1.0 | 2026-02-28 | Initial publication |
 
 ---
 
