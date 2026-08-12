@@ -1,6 +1,7 @@
 ---
 title: プライバシーポリシー - MiDiccio
 description: MiDiccio アプリのプライバシーポリシー。個人データの収集・使用・保護方法について説明します。
+version: 1.9
 lastUpdated: 2026-08-12
 ---
 

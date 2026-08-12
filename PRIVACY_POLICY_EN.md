@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
+version: 1.9
 lastUpdated: 2026-08-12
 lang: en
 updatedLabel: Last updated

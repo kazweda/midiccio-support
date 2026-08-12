@@ -1,0 +1,33 @@
+name: Check Privacy Policy Version
+
+on:
+  pull_request:
+    paths:
+      - PRIVACY_POLICY.md
+      - PRIVACY_POLICY_EN.md
+      - ci_scripts/check_privacy_policy_version.py
+  push:
+    branches:
+      - main
+    paths:
+      - PRIVACY_POLICY.md
+      - PRIVACY_POLICY_EN.md
+      - ci_scripts/check_privacy_policy_version.py
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check version consistency
+        run: python ci_scripts/check_privacy_policy_version.py
