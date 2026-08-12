@@ -216,7 +216,7 @@ support (at) netplan.co.jp
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email (support (at) netplan.co.jp) |
+| 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email |
 | 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
 | 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
 | 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
