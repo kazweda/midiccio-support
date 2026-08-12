@@ -161,11 +161,10 @@ The app does not implement its own application-level encryption. Data protection
 
 ### 5.3 Security Reporting
 
-If you find a security vulnerability, please report it through a private channel instead of a public issue:
+If you find a security vulnerability, please report it privately to the following email address instead of a public issue:
 
 ```
-- Use “Report a vulnerability” from the repository Security tab (Private vulnerability reporting)
-- See SECURITY.md for details
+support@netplan.co.jp
 ```
 
 ---
@@ -205,10 +204,10 @@ The update date is always reflected in “Last updated”.
 
 ## 8. Contact
 
-If you have questions or concerns regarding privacy or security, please open an issue on GitHub:
+If you have questions or concerns regarding privacy or security, please contact us at the following email address:
 
 ```
-GitHub Issues: https://github.com/kazweda/midiccio/issues
+support@netplan.co.jp
 ```
 
 ---
@@ -217,6 +216,7 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email (support@netplan.co.jp) |
 | 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
 | 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
 | 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |

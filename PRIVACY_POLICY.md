@@ -159,11 +159,10 @@ MiDiccio Premium（買い切り）の購入は App Store（iOS）または Googl
 
 ### 5.3 セキュリティ報告
 
-セキュリティ脆弱性を発見した場合は、公開 Issue ではなく非公開チャネルでご報告ください：
+セキュリティ脆弱性を発見した場合は、公開 Issue ではなく以下のメールアドレスまで非公開でご報告ください：
 
 ```
-- GitHub リポジトリの Security タブから Report a vulnerability（Private vulnerability reporting）
-- 手順の詳細は SECURITY.md を参照
+support@netplan.co.jp
 ```
 
 ---
@@ -203,10 +202,10 @@ MiDiccio Premium（買い切り）の購入は App Store（iOS）または Googl
 
 ## 8. お問い合わせ
 
-プライバシーやセキュリティについてご質問・ご懸念がある場合は、GitHub Issues で issue を作成してください：
+プライバシーやセキュリティについてご質問・ご懸念がある場合は、以下のメールアドレスまでご連絡ください：
 
 ```
-GitHub Issues: https://github.com/kazweda/midiccio/issues
+support@netplan.co.jp
 ```
 
 ---
@@ -215,6 +214,7 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 
 | バージョン | 日付 | 変更内容 |
 |---------|-----|---------|
+| 1.9 | 2026-08-12 | 第5.3条・第8条の連絡先を private リポジトリの GitHub Issues からメール（support@netplan.co.jp）に変更 |
 | 1.8 | 2026-08-12 | 第3.3条を新設：Premium購入時の決済情報（App Store / Google Play）の取扱いを明記 |
 | 1.7 | 2026-03-28 | 第1.1条タイトルを「ローカルに保存されるデータ」に修正・アプリ独自暗号化なし（OS依存）の旨を第5.2条として追加 |
 | 1.6 | 2026-03-20 | 第3.1条を簡略化：例外リスト削除・開発者はデータにアクセス不可である旨を明記 |
