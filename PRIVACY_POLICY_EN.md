@@ -217,15 +217,15 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2026-02-28 | Initial publication |
-| 1.1 | 2026-03-13 | Added iCloud / Google Drive cloud sync descriptions |
-| 1.2 | 2026-03-14 | Corrected implementation status descriptions |
-| 1.3 | 2026-03-14 | Reflected iOS CloudKit manual sync completion |
-| 1.4 | 2026-03-15 | Reflected lightweight auto-sync triggers (resume, save, delete) |
-| 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
-| 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
-| 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
 | 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
+| 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
+| 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
+| 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
+| 1.4 | 2026-03-15 | Reflected lightweight auto-sync triggers (resume, save, delete) |
+| 1.3 | 2026-03-14 | Reflected iOS CloudKit manual sync completion |
+| 1.2 | 2026-03-14 | Corrected implementation status descriptions |
+| 1.1 | 2026-03-13 | Added iCloud / Google Drive cloud sync descriptions |
+| 1.0 | 2026-02-28 | Initial publication |
 
 ---
 
