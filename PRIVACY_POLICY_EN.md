@@ -1,14 +1,14 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-lastUpdated: 2026-03-28
+lastUpdated: 2026-08-12
 lang: en
 updatedLabel: Last updated
 ---
 
 # Privacy Policy
 
-Last updated: March 28, 2026
+Last updated: August 12, 2026
 
 ## Overview
 
@@ -95,6 +95,15 @@ When cloud sync is used, the following privacy policies also apply:
 - **iCloud (iOS)**: [Apple Privacy Policy](https://www.apple.com/privacy/)
 
 MiDiccio integrates these services as a licensee and does not perform secondary data usage.
+
+### 3.3 Purchase Information
+
+MiDiccio Premium (one-time purchase) is purchased through the App Store (iOS) or Google Play (Android), and payment information (such as credit card numbers) is managed by Apple / Google. The developer does not collect or store the purchaser's personal information such as name or email address within the app.
+
+- **iOS**: Through App Store Connect, the developer cannot obtain information that identifies individual purchasers (only aggregated sales data is available).
+- **Android**: Due to how Google Play works, for the purpose of handling refunds and order management, the developer may be able to see the purchaser's email address, etc. in the Google Play Console's "Order management" screen.
+
+The respective privacy policies for these payment platforms also apply (see 3.2).
 
 ---
 
@@ -216,6 +225,7 @@ GitHub Issues: https://github.com/kazweda/midiccio/issues
 | 1.5 | 2026-03-20 | Removed Android Google Drive dedicated backup buttons; added bulk delete |
 | 1.6 | 2026-03-20 | Simplified Section 3.1: removed exception list; clarified developer has no data access |
 | 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
+| 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
 
 ---
 

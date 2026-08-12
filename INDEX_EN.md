@@ -100,6 +100,17 @@ Your learning doesn't depend on a network.
 
 ---
 
+## Pricing
+
+Free to start.
+
+- **Free plan**: Add up to 50 words
+- **Premium (one-time purchase)**: Unlock unlimited entries permanently with a single purchase
+
+No subscriptions. Purchases are processed through the App Store / Google Play.
+
+---
+
 ## Download
 
 Start building your own dictionary today.
