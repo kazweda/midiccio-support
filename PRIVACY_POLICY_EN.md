@@ -1,15 +1,15 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-version: 1.9
-lastUpdated: 2026-08-12
+version: 1.10
+lastUpdated: 2026-08-27
 lang: en
 updatedLabel: Last updated
 ---
 
 # Privacy Policy
 
-Last updated: August 12, 2026
+Last updated: August 27, 2026
 
 ## Overview
 
@@ -116,8 +116,8 @@ Users can access data by:
 
 1. **In-app**: View data in learning screens
 2. **Backup file**: Complete export available in JSON format
-3. **Android cloud sync**: Check sync status and logs in settings
-4. **iOS cloud sync**: Check sync status and logs in settings
+3. **Android cloud sync**: Check sync status and sync completion notifications in settings
+4. **iOS cloud sync**: Check sync status and sync completion notifications in settings
 
 ### 4.2 Right to Delete Data (Right to be Forgotten)
 
@@ -217,6 +217,7 @@ support (at) netplan.co.jp
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.10 | 2026-08-27 | Section 4.1: Removed the "sync logs" wording and corrected it to reflect actual behavior (sync status and completion notifications) |
 | 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email |
 | 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
 | 1.7 | 2026-03-28 | Updated Section 1.1 title to "Data Stored (locally)"; added Section 5.2 clarifying no app-level encryption (OS-dependent) |
