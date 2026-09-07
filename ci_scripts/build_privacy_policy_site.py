@@ -29,9 +29,17 @@ def parse_front_matter(content: str) -> tuple[dict[str, str], str]:
 
 
 PROMO_CSS = """
+      .app-icon {
+        display: block;
+        width: 96px;
+        height: 96px;
+        margin: 0 auto 1rem;
+        border-radius: 22%;
+      }
       h1 {
         font-size: 2.5rem;
         margin-bottom: 0.25rem;
+        text-align: center;
       }
       h1 + p strong {
         font-size: 1.15rem;
@@ -73,17 +81,15 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         "form-action 'none';"
     )
     extra_css = PROMO_CSS if page_type == "promo" else ""
-    favicon_svg = (
-        "data:image/svg+xml,"
-        "<svg%20xmlns='http://www.w3.org/2000/svg'"
-        "%20viewBox='0%200%20100%20100'>"
-        "<rect%20width='100'%20height='100'%20rx='20'"
-        "%20fill='%231a1a1a'/>"
-        "<text%20x='50'%20y='72'%20font-size='68'"
-        "%20font-family='system-ui,sans-serif'"
-        "%20font-weight='700'%20fill='white'"
-        "%20text-anchor='middle'>M</text>"
-        "</svg>"
+    depth = meta.get("assetDepth", "")
+    assets_prefix = "../" * int(depth) if depth else ""
+    icon_alt = "MiDiccio" if lang == "en" else "MiDiccio アイコン"
+    icon_html = (
+        f'<img class="app-icon" src="{assets_prefix}assets/icons/'
+        f'app-icon-256.png" alt="{html.escape(icon_alt)}" width="96" '
+        f'height="96" />'
+        if page_type == "promo"
+        else ""
     )
 
     return f"""<!doctype html>
@@ -95,7 +101,15 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
       http-equiv=\"Content-Security-Policy\"
       content=\"{html.escape(csp_content)}\"
     />
-    <link rel=\"icon\" type=\"image/svg+xml\" href=\"{favicon_svg}\" />
+    <link
+      rel=\"icon\"
+      type=\"image/png\"
+      href=\"{assets_prefix}assets/icons/favicon-32.png\"
+    />
+    <link
+      rel=\"apple-touch-icon\"
+      href=\"{assets_prefix}assets/icons/app-icon-180.png\"
+    />
     <title>{html.escape(title)}</title>
     <meta name=\"description\" content=\"{html.escape(description)}\" />
     <style>
@@ -149,6 +163,7 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
   </head>
   <body>
     <main>
+      {icon_html}
       {updated_text}
       {rendered}
     </main>

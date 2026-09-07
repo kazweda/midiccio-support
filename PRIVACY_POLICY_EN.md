@@ -5,6 +5,7 @@ version: 1.10
 lastUpdated: 2026-08-27
 lang: en
 updatedLabel: Last updated
+assetDepth: 2
 ---
 
 # Privacy Policy

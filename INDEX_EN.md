@@ -3,6 +3,7 @@ title: MiDiccio - Build Your Own Private Dictionary
 description: A personal offline-first vocabulary learning app for iOS & Android. No sign-up required to get started.
 lang: en
 pageType: promo
+assetDepth: 1
 ---
 
 # MiDiccio
