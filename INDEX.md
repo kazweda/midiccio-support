@@ -3,6 +3,7 @@ title: MiDiccio - 自分だけの単語帳を、デバイスの中に
 description: iOS・Android 向けのオフラインファーストな個人用語学習アプリ。アプリへのサインアップ不要で利用開始できます。
 lang: ja
 pageType: promo
+assetDepth: 0
 ---
 
 # MiDiccio
