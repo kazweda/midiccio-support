@@ -57,6 +57,18 @@ Capture and organize your vocabulary in a way that fits your thinking.
 
 No complicated setup. No unnecessary features.
 
+### What you can record
+
+| Field | Details |
+|-------|---------|
+| Word / Phrase | The word you want to remember (required) |
+| Reading | Any notation you like — kana, pinyin, IPA, etc. |
+| Meaning | Supports simple Markdown (bold, lists, links) |
+| Context Note | Usage examples or where you came across it |
+| Tags / Category | Add freely to organize your words |
+
+MiDiccio is **a dictionary you write yourself**. It does not include built-in dictionary data, translation, or audio. It's a place to keep the meanings you looked up and the examples you encountered, in your own words.
+
 ---
 
 ## Designed for simplicity
@@ -80,10 +92,33 @@ Your words are personal.
 MiDiccio respects that.
 
 - Stored locally on your device
-- Optional backup when you choose (iCloud / Google Drive)
 - No hidden data collection
 
 Nothing is uploaded without your intent.
+
+### Sync and backup
+
+There are two ways to protect your data.
+
+- **Cloud sync (optional)**: Keeps your devices on the same OS in step, using iCloud (iOS) or Google Drive's private app folder (Android). Sync runs automatically at certain times, such as app launch, and you can also sync manually with the sync button on the entry list screen.
+- **JSON backup**: Export all your words as a single JSON file from Settings. Save it wherever you like, and use it to move to a new device or between iOS and Android.
+
+Sync keeps your devices matched to their current state. To keep a copy of your data as it was at a specific point in time, use a JSON backup.
+
+### Restore, conflicts, and deletion
+
+- **Restoring from a backup**: Choose **Replace** (replace all current data with the backup) or **Merge** (keep current data and combine it with the backup).
+- **When the same word was edited separately**: For both sync and merge restore, the most recently updated version wins.
+- **Deleted words**: Restore them from Trash in Settings. If you use cloud sync, the restore is reflected on your other devices too.
+
+### Recommended protection
+
+To be ready for a lost or broken device, we recommend doing one of the following:
+
+- Keep cloud sync turned on
+- Export a JSON backup regularly and store it off the device (iCloud Drive, Google Drive, a computer, etc.)
+
+When you restore with **Replace**, words that aren't in the backup are removed without going to Trash. Before replacing, it's a good idea to back up your current data as well.
 
 ---
 
@@ -108,7 +143,7 @@ Free to start.
 - **Free plan**: Add up to 50 words
 - **Premium (one-time purchase)**: Unlock unlimited entries permanently with a single purchase
 
-No subscriptions. Purchases are processed through the App Store / Google Play.
+No subscriptions. Purchases are processed through the App Store / Google Play. Prices vary by region — please check the store page for your region.
 
 ---
 
