@@ -1,8 +1,8 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-version: 1.10
-lastUpdated: 2026-08-27
+version: 1.11
+lastUpdated: 2026-10-06
 lang: en
 updatedLabel: Last updated
 assetDepth: 2
@@ -10,7 +10,7 @@ assetDepth: 2
 
 # Privacy Policy
 
-Last updated: August 27, 2026
+Last updated: October 6, 2026
 
 ## Overview
 
@@ -65,7 +65,7 @@ In the current version, cloud sync runs at the following timing:
 
 **Important**:
 - When a cloud sync client is enabled, the app issues auto-sync requests on app resume, after save, and after delete
-- Users can also run manual sync from settings using **Sync Now**
+- Users can also run manual sync with the sync button on the entry list screen
 - Network transfer occurs only when a sync execution runs (to iCloud on iOS, Google Drive on Android)
 
 ### 2.3 Data Transfer Security
@@ -117,8 +117,7 @@ Users can access data by:
 
 1. **In-app**: View data in learning screens
 2. **Backup file**: Complete export available in JSON format
-3. **Android cloud sync**: Check sync status and sync completion notifications in settings
-4. **iOS cloud sync**: Check sync status and sync completion notifications in settings
+3. **Cloud sync (iOS / Android)**: Synced content can be viewed in the app on each device. When you run a manual sync, the app shows whether it completed or failed
 
 ### 4.2 Right to Delete Data (Right to be Forgotten)
 
@@ -126,21 +125,30 @@ Users can delete data by:
 
 | Method | Scope | Timing |
 |--------|-------|--------|
-| Individual or bulk deletion in app | Selected data only | Immediate |
-| Replace via backup restore | Replace local data with backup content | At restore time |
+| Individual or bulk deletion in app | Moves the selected words to Trash (their content stays on the device) | Immediate |
+| Replace via backup restore | Replace local data with backup content (cloud data is not deleted) | At restore time |
 | Uninstall app | Delete all local data | At uninstall |
 | Disconnect Google account on Android | Stops future cloud sync | Immediate |
-| iOS cloud sync | In-app deletion propagates to iCloud deletion (at sync time) | At sync time |
+
+**How deleted words are handled**:
+- Deleted words move to Trash with their content kept, and can be restored from Trash in Settings
+- If you use cloud sync, the moved-to-Trash state is synced to iCloud / Google Drive, and the content also stays in the cloud
+- Permanently deleting words from Trash is not currently supported
 
 ### 4.3 Right to Data Portability
 
 Users can export data anytime:
 
 ```
-[Menu] → [Backup/Restore] → [Save Backup]
+[Settings] → [Backup] → [Create Backup]
 ```
 
 Export files are JSON and can be processed by other tools.
+
+When restoring from a backup, you can choose either:
+
+- **Replace**: Deletes all current data and replaces it with the backup content
+- **Merge**: Keeps current data and imports the backup. If the same word exists in both, the more recently updated version is kept
 
 ---
 
@@ -218,6 +226,7 @@ support (at) netplan.co.jp
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.11 | 2026-10-06 | Section 2.2: Corrected the location of manual sync to the entry list screen. Section 4.1: Corrected how synced content can be checked. Section 4.2: Reflected that deleted words move to Trash and remain on the device and in the cloud. Section 4.3: Corrected the backup steps and added the Replace / Merge restore options |
 | 1.10 | 2026-08-27 | Section 4.1: Removed the "sync logs" wording and corrected it to reflect actual behavior (sync status and completion notifications) |
 | 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email |
 | 1.8 | 2026-08-12 | Added Section 3.3 clarifying how purchase/payment information is handled for Premium purchases (App Store / Google Play) |
