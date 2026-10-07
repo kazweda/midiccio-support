@@ -141,7 +141,11 @@ def build_html(markdown_text: str, meta: dict[str, str]) -> str:
         text-align: left;
         vertical-align: top;
       }}
-      th:nth-child(2), td:nth-child(2) {{
+      th {{
+        word-break: keep-all;
+      }}
+      /* バージョン履歴表（h2 直後の唯一の表）の日付列だけ折り返さない */
+      h2 + table th:nth-child(2), h2 + table td:nth-child(2) {{
         white-space: nowrap;
       }}
       code {{
