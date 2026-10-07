@@ -1,8 +1,8 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-version: 1.11
-lastUpdated: 2026-10-06
+version: 1.12
+lastUpdated: 2026-10-07
 lang: en
 updatedLabel: Last updated
 assetDepth: 2
@@ -10,7 +10,7 @@ assetDepth: 2
 
 # Privacy Policy
 
-Last updated: October 6, 2026
+Last updated: October 7, 2026
 
 ## Overview
 
@@ -64,8 +64,8 @@ In the current version, cloud sync runs at the following timing:
 | Android | Google Drive (AppData) | ✅ Implemented (manual + lightweight auto-sync) |
 
 **Important**:
-- When a cloud sync client is enabled, the app issues auto-sync requests on app resume, after save, and after delete
-- Users can also run manual sync with the sync button on the entry list screen
+- While cloud sync is turned on, the app syncs automatically at times such as when words are saved or deleted and when you return to the app. You can also run sync manually
+- While cloud sync is turned off, the app does not send or receive data to or from the cloud, whether manually or automatically
 - Network transfer occurs only when a sync execution runs (to iCloud on iOS, Google Drive on Android)
 
 ### 2.3 Data Transfer Security
@@ -128,7 +128,7 @@ Users can delete data by:
 | Individual or bulk deletion in app | Moves the selected words to Trash (their content stays on the device) | Immediate |
 | Replace via backup restore | Replace local data with backup content (cloud data is not deleted) | At restore time |
 | Uninstall app | Delete all local data | At uninstall |
-| Disconnect Google account on Android | Stops future cloud sync | Immediate |
+| Turn off cloud sync (disconnecting your Google account on Android has the same effect) | Stops sending and receiving data to and from the cloud from then on (cloud data is not deleted) | Immediate |
 
 **How deleted words are handled**:
 - Deleted words move to Trash with their content kept, and can be restored from Trash in Settings
@@ -226,6 +226,7 @@ support (at) netplan.co.jp
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.12 | 2026-10-07 | Section 2.2: Reworded the sync description so it does not depend on where controls appear on screen, and added that no data is sent to or received from the cloud while sync is turned off. Section 4.2: Added a row for turning off cloud sync and merged the Android Google account disconnection row into it |
 | 1.11 | 2026-10-06 | Section 2.2: Corrected the location of manual sync to the entry list screen. Section 4.1: Corrected how synced content can be checked. Section 4.2: Reflected that deleted words move to Trash and remain on the device and in the cloud. Section 4.3: Corrected the backup steps and added the Replace / Merge restore options |
 | 1.10 | 2026-08-27 | Section 4.1: Removed the "sync logs" wording and corrected it to reflect actual behavior (sync status and completion notifications) |
 | 1.9 | 2026-08-12 | Changed the contact channel in Sections 5.3 and 8 from GitHub Issues on the private repository to email |
