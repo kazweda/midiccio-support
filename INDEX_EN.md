@@ -107,9 +107,9 @@ Sync keeps your devices matched to their current state. To keep a copy of your d
 
 ### Restore, conflicts, and deletion
 
-- **Restoring from a backup**: Choose **Replace** (replace all current data with the backup) or **Merge** (keep current data and combine it with the backup).
+- **Restoring from a backup**: Choose **Replace** (replace current data with the backup and move words not in the backup to Trash) or **Merge** (keep current data and combine it with the backup).
 - **When the same word was edited separately**: For both sync and merge restore, the most recently updated version wins.
-- **Deleted words**: Restore them from Trash in Settings. If you use cloud sync, the restore is reflected on your other devices too.
+- **Deleted words**: Restore them from Trash in Settings. Words permanently deleted from Trash cannot be restored. If you use cloud sync, both are reflected on your other devices too.
 
 ### Recommended protection
 
@@ -118,7 +118,7 @@ To be ready for a lost or broken device, we recommend doing one of the following
 - Keep cloud sync turned on
 - Export a JSON backup regularly and store it off the device (iCloud Drive, Google Drive, a computer, etc.)
 
-When you restore with **Replace**, words that aren't in the backup are removed without going to Trash. Before replacing, it's a good idea to back up your current data as well.
+When you restore with **Replace**, words that aren't in the backup are moved to Trash. However, words that are also in the backup are overwritten with the backup content. Before replacing, it's a good idea to back up your current data as well.
 
 ---
 

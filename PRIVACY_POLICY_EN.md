@@ -1,8 +1,8 @@
 ---
 title: Privacy Policy - MiDiccio
 description: Privacy Policy for the MiDiccio app. This document describes how personal data is collected, used, and protected.
-version: 1.12
-lastUpdated: 2026-10-07
+version: 1.13
+lastUpdated: 2026-10-12
 lang: en
 updatedLabel: Last updated
 assetDepth: 2
@@ -126,14 +126,16 @@ Users can delete data by:
 | Method | Scope | Timing |
 |--------|-------|--------|
 | Individual or bulk deletion in app | Moves the selected words to Trash (their content stays on the device) | Immediate |
-| Replace via backup restore | Replace local data with backup content (cloud data is not deleted) | At restore time |
+| Permanent deletion from Trash | Deletes the content of the selected words, or of all words in Trash (if you use cloud sync, it is also deleted from the cloud and your other devices) | Immediate |
+| Replace via backup restore | Replaces the data on the device with the backup content, and moves words not in the backup to Trash (if you use cloud sync, this is also reflected in the cloud and on your other devices) | At restore time |
 | Uninstall app | Delete all local data | At uninstall |
 | Turn off cloud sync (disconnecting your Google account on Android has the same effect) | Stops sending and receiving data to and from the cloud from then on (cloud data is not deleted) | Immediate |
 
 **How deleted words are handled**:
 - Deleted words move to Trash with their content kept, and can be restored from Trash in Settings
 - If you use cloud sync, the moved-to-Trash state is synced to iCloud / Google Drive, and the content also stays in the cloud
-- Permanently deleting words from Trash is not currently supported
+- Words permanently deleted from Trash have their content (terms, meanings, notes, and tags) deleted from the device and cannot be restored. If you use cloud sync, the content is also deleted from iCloud / Google Drive and your other devices
+- To let each device know that a word was permanently deleted, only an identifying ID and timestamps remain on the device and in the cloud
 
 ### 4.3 Right to Data Portability
 
@@ -147,7 +149,7 @@ Export files are JSON and can be processed by other tools.
 
 When restoring from a backup, you can choose either:
 
-- **Replace**: Deletes all current data and replaces it with the backup content
+- **Replace**: Replaces current data with the backup content. Words not in the backup are moved to Trash
 - **Merge**: Keeps current data and imports the backup. If the same word exists in both, the more recently updated version is kept
 
 ---
@@ -226,6 +228,7 @@ support (at) netplan.co.jp
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.13 | 2026-10-12 | Section 4.2: Added a row for permanent deletion from Trash, stating that the content of permanently deleted words is removed from the device and the cloud. Revised replace via backup restore to state that words not in the backup are moved to Trash, and that this is reflected in the cloud and on other devices if you use cloud sync. Section 4.3: Revised the description of Replace accordingly |
 | 1.12 | 2026-10-07 | Section 2.2: Reworded the sync description so it does not depend on where controls appear on screen, and added that no data is sent to or received from the cloud while sync is turned off. Section 4.2: Added a row for turning off cloud sync and merged the Android Google account disconnection row into it |
 | 1.11 | 2026-10-06 | Section 2.2: Corrected the location of manual sync to the entry list screen. Section 4.1: Corrected how synced content can be checked. Section 4.2: Reflected that deleted words move to Trash and remain on the device and in the cloud. Section 4.3: Corrected the backup steps and added the Replace / Merge restore options |
 | 1.10 | 2026-08-27 | Section 4.1: Removed the "sync logs" wording and corrected it to reflect actual behavior (sync status and completion notifications) |
