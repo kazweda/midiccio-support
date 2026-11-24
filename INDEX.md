@@ -8,6 +8,8 @@ assetDepth: 0
 
 # MiDiccio
 
+「ミディッチョ」と読みます。「私の辞書」を意味するイタリア語 *il mio dizionario* とスペイン語 *mi diccionario* から作った名前です。
+
 ## 自分だけのプライベート辞書を作ろう
 
 サインアップ不要。  

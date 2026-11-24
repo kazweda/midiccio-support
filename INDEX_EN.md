@@ -8,6 +8,8 @@ assetDepth: 1
 
 # MiDiccio
 
+Pronounced "mee-DEE-choh". The name comes from the Italian *il mio dizionario* and the Spanish *mi diccionario*, both meaning "my dictionary".
+
 ## Build your own private dictionary
 
 No sign-up.  
